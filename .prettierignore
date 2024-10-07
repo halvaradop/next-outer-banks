@@ -1,0 +1,8 @@
+# build
+.next
+node_modules
+coverage
+
+# files
+package-lock.json
+LICENSE

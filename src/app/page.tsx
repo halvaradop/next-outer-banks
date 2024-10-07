@@ -4,7 +4,6 @@ import fire from "@/assets/fire.jpg"
 import island from "@/assets/island.jpg"
 
 const Index = () => {
-
     return (
         <main>
             <section>

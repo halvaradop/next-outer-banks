@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "next": "14.2.4",
@@ -20,7 +22,29 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "semi": false,
+    "useTabs": false,
+    "printWidth": 130,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "overrides": [
+      {
+        "files": [
+          "*.json",
+          "*.yml",
+          "*.yaml",
+          "README.md"
+        ],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
   }
 }
