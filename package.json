@@ -17,8 +17,8 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@halvaradop/tailwindcss-utilities": "^0.2.2",
-    "@halvaradop/ts-utility-types": "^0.1.0",
+    "@halvaradop/tailwindcss-utilities": "^0.2.3",
+    "@halvaradop/ts-utility-types": "^0.11.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
