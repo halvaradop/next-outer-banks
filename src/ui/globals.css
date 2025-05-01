@@ -1,3 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+/**
+    Used this version util the packages will be updated to the latest version
+    of tailwindcss
+*/
+@plugin "@halvaradop/tailwindcss-utilities";
