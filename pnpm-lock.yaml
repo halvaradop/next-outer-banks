@@ -19,8 +19,8 @@ importers:
         version: 19.0.0(react@19.0.0)
     devDependencies:
       '@halvaradop/tailwindcss-utilities':
-        specifier: ^0.2.3
-        version: 0.2.3
+        specifier: ^1.0.0
+        version: 1.0.0
       '@halvaradop/ts-utility-types':
         specifier: ^0.19.0
         version: 0.19.0
@@ -108,8 +108,8 @@ packages:
     resolution: {integrity: sha512-ZAoA40rNMPwSm+AeHpCq8STiNAwzWLJuP8Xv4CHIc9wv/PSuExjMrmjfYNj682vW0OOiZ1HKxzvjQr9XZIisQA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@halvaradop/tailwindcss-utilities@0.2.3':
-    resolution: {integrity: sha512-z8e3hdNLpgV7Pv46VL0zboLAhxC63xUt/8iYqiYO3TJxBlcWQZkAuyN7LZVH1x/FfqVCxo0YgMLYZ3HlRQ0IHw==}
+  '@halvaradop/tailwindcss-utilities@1.0.0':
+    resolution: {integrity: sha512-tWohTj+ppgLXdXDd6HE8vd9gtg6WluBExaAjA3wGW1HkTBOXjG2/ThKxeq1AiwvaXK+QXv+mgK5OSXGnLnMJqg==}
 
   '@halvaradop/ts-utility-types@0.19.0':
     resolution: {integrity: sha512-F8Sf5XVK/JN9MPIu6oK+rgGLSbtddw+rWcvhPzo3hNq+Se7l6XR2JfZXnUOYtGpHwTjwVuLXjs4OUJkw2fKWMw==}
@@ -1691,7 +1691,7 @@ snapshots:
       '@eslint/core': 0.13.0
       levn: 0.4.1
 
-  '@halvaradop/tailwindcss-utilities@0.2.3': {}
+  '@halvaradop/tailwindcss-utilities@1.0.0': {}
 
   '@halvaradop/ts-utility-types@0.19.0': {}
 

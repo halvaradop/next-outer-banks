@@ -8,7 +8,7 @@ const Index = () => {
         <main>
             <section>
                 <div className="text-center uppercase">
-                    <h1 className="fluency-6xl font-bold">Outer Banks</h1>
+                    <h1 className="font-bold">Outer Banks</h1>
                 </div>
                 <figure className="w-full max-w-full flex items-center overflow-x-hidden">
                     <Image className="min-w-full aspect-video object-cover" src={fire} alt="fire picture" />
